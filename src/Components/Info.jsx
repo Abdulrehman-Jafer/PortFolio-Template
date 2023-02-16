@@ -1,8 +1,8 @@
 import WorkCard from "./workCard";
-import star1 from "../images/star.png"
-import star2 from "../images/star2.png"
-import star3 from "../images/star3.png"
-import star4 from "../images/star4.png"
+import star1 from "../assets/star.png"
+import star2 from "../assets/star2.png"
+import star3 from "../assets/star3.png"
+import star4 from "../assets/star4.png"
 
 const Info = () => {
     return (

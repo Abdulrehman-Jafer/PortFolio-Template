@@ -2,15 +2,7 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/main.jsx",
-    "./src/App.jsx",
-    "./src/Navbar.jsx",
-    "./src//Hero.jsx",
-    "./src/Info.jsx",
-    "./src/workCard.jsx",
-    "./src/MobileNav.jsx",
-    "./src/ExampleProject.jsx",
-    "./src/Footer.jsx"
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},

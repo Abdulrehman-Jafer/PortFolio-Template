@@ -1,4 +1,4 @@
-import logo from "../images/logo.png"
+import logo from "../assets/logo.png"
 import { BsList } from "react-icons/bs"
 import { Link } from "react-router-dom"
 
