@@ -14,8 +14,8 @@ export const ExampleProject = ({title,desc,image,flip=false}) => {
                     {<TbClick/>}
                 </div>
             </div>
-            <div className='pt-[1.5rem] pr-[3rem] rounded-lg' style={{background:"#2b0b3a"}}>
-                <img src={image} alt="portfolio" className='min-w-[320px] max-w-[400px]' style={{background:"#2B0B3A"}}/>
+            <div>
+                <img src={image} alt="portfolio" className='min-w-[320px] max-w-[400px] rounded-lg'/>
             </div>
 
         </div>
