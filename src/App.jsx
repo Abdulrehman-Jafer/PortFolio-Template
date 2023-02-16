@@ -5,7 +5,7 @@ import MobileNavbar from "./Components/MobileNav";
 import { ExampleProject } from "./Components/ExampleProject";
 import Footer from "./Components/Footer";
 import bigImage from "./assets/big-Image.png";
-import mern from "./assets/mern.png";
+// import mern from "./assets/mern.png";
 import bankApp from "./assets/bankApp.png";
 import capstone from "./assets/capstone.png";
 import { useState } from "react";
@@ -30,13 +30,13 @@ const App = () => {
           alt="bigImage"
           className="w-3/6 mx-auto my-20 min-w-[320px]"
         />
-        <ExampleProject
+        {/* <ExampleProject
           title={"Mern App"}
           desc={
             "This is a MERN blogging app with the login and signup page and after logging in you can write blogs in your account and look other people blogs. I have used Typescript and tailwind for frontend and expressJs and Monogodb for backend."
           }
           image={mern}
-        />
+        /> */}
         <ExampleProject
           title={"Banking App Dashoard"}
           desc={
