@@ -6,8 +6,8 @@ import { ExampleProject } from "./Components/ExampleProject";
 import Footer from "./Components/Footer";
 import bigImage from "./assets/big-Image.png";
 // import mern from "./assets/mern.png";
-import bankApp from "./assets/bankApp.png";
-import capstone from "./assets/capstone.png";
+// import bankApp from "./assets/bankApp.png";
+// import capstone from "./assets/capstone.png";
 import { useState } from "react";
 
 const App = () => {
@@ -37,7 +37,7 @@ const App = () => {
           }
           image={mern}
         /> */}
-        <ExampleProject
+        {/* <ExampleProject
           title={"Banking App Dashoard"}
           desc={
             "This is a dummy but properly designed dashboard of a banking app and in this project I demonstrated my skills as a responsive web developer. This layout is totally responsive and also contained a Graph totally made by me from the scratch."
@@ -51,7 +51,7 @@ const App = () => {
             "This minor project is the example of a simple Ecommerce site and in this project I have done proper use of advance React concepts such as custom hooks and used Context api for managing state globally.Please do check it out this tiny website."
           }
           image={capstone}
-        />
+        /> */}
         <Footer />
       </div>
     </>
