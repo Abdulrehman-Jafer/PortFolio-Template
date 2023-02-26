@@ -27,7 +27,7 @@ const App = () => {
         <img
           src={bigImage}
           alt="bigImage"
-          className="w-3/6 mx-auto my-20 min-w-[320px]"
+          className="w-3/6 mx-auto my-20 min-w-[250px]"
         />
       <ExampleProject image={portfolio1} title={"Example Project"} desc={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatum, illo eligendi exercitationem neque officia, modi, itaque reiciendis fugiat libero earum. Minima natus reiciendis perferendis asperiores obcaecati assumenda atque dolore."}/>
       <ExampleProject image={portfolio2} flip={true} title={"Example Project"} desc={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatum, illo eligendi exercitationem neque officia, modi, itaque reiciendis fugiat libero earum. Minima natus reiciendis perferendis asperiores obcaecati assumenda atque dolore."}/>

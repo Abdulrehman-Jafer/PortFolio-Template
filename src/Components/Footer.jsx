@@ -5,7 +5,7 @@ import {BsGoogle} from "react-icons/bs"
 
 const Footer = () => {
     return (
-        <div className='flex flex-col gap-4 bg-gradient-to-r from-gray-700 p-10'>
+        <div className='flex flex-col gap-4 bg-gradient-to-r from-gray-700 sm:p-10 p-2'>
             <div className='text-5xl'>Contact</div>
             <div className='max-w-[700px]'>
                 I'm currently looking to join a cross-functional team that values improving people's lives

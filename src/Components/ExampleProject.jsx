@@ -15,7 +15,7 @@ export const ExampleProject = ({title,desc,image,flip=false}) => {
                 </div>
             </div>
             <div>
-                <img src={image} alt="portfolio" className='min-w-[320px] max-w-[400px] rounded-lg'/>
+                <img src={image} alt="portfolio" className='sm:min-w-[280px] sm:w-[100%] w-[300px] max-w-[400px] rounded-lg'/>
             </div>
 
         </div>
